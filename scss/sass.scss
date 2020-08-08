@@ -189,6 +189,9 @@ footer {
 }
 
 .help-blog {
+  @include flex(flex);
+  flex-flow: column nowrap;
+  align-items: center;
   margin: 0;
   padding: 5px;
   padding-bottom: 100px;

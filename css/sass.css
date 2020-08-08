@@ -158,6 +158,13 @@ footer {
   float: right; }
 
 .help-blog {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   margin: 0;
   padding: 5px;
   padding-bottom: 100px;
