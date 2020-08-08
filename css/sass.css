@@ -3,13 +3,17 @@ body {
   font-family: 'Noto Sans', sans-serif; }
 
 html {
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
   scroll-behavior: smooth; }
 
 span {
   font-size: 16px; }
 
 p {
-  font-size: 16px; }
+  font-size: 16px;
+  max-height: 999999999999999px; }
 
 ::-webkit-scrollbar {
   width: 10px; }
